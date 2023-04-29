@@ -45,20 +45,20 @@ document.addEventListener( 'DOMContentLoaded', function() {
         loop: true,
         slidesPerView: 3,
         centeredSlides: true,
-        // effect: 'creative',
-        // creativeEffect: {
-        //     limitProgress: 3,
-        //     prev: {
-        //       translate: [0, 0, 0],
-        //       opacity: 0,
-        //       scale: 0,
-        //     },
-        //     next: {
-        //       translate: [0, 0, 0],
-        //       opacity: 0,
-        //       scale: 0,
-        //     },
-        // }
+        effect: 'creative',
+        creativeEffect: {
+            limitProgress: 3,
+            prev: {
+              translate: [0, 0, 0],
+              opacity: 0,
+              scale: 0,
+            },
+            next: {
+              translate: [0, 0, 0],
+              opacity: 0,
+              scale: 0,
+            },
+        }
       });
 
       heroSlider.controller.control = heroTextSlider;
