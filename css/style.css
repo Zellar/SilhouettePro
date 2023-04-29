@@ -557,7 +557,7 @@ section {
 }
 
     .hero {
-        background: url('/images/hero-bg.webp') no-repeat;
+        background: url('images/hero-bg.webp') no-repeat;
         background-size: cover;
         background-position: 100% center;
         max-height: 1024px;
@@ -567,7 +567,7 @@ section {
             position: relative;
             max-width: 1440px;
             height: 600px;
-            background: url('/images/hero-slider/hero-ellipse.svg') no-repeat;
+            background: url('images/hero-slider/hero-ellipse.svg') no-repeat;
             background-position-x: 50%;
             background-position-y: -15%;
             background-size: auto;
@@ -601,7 +601,7 @@ section {
             width: 40px;
             height: 60px;
             left: 30%;
-            background: url('/icons/left-arrow.svg') no-repeat;
+            background: url('icons/left-arrow.svg') no-repeat;
         }
         @media(max-width: 1400px) {
             .hero__slider .swiper-button-prev {
@@ -630,7 +630,7 @@ section {
         .hero__slider .swiper-button-next {
             position: absolute;
             top: 40%;
-            background: url('/icons/right-arrow.svg') no-repeat;
+            background: url('icons/right-arrow.svg') no-repeat;
             width: 40px;
             height: 60px;
             right: 30%;
@@ -736,7 +736,7 @@ section {
 
             .hero-slider-mob--next {
                 right: 15%;
-                background: url('/icons/right-arrow.svg') no-repeat;
+                background: url('icons/right-arrow.svg') no-repeat;
                 background-position: center;
                 width: 45px;
                 height: 70px;
@@ -761,7 +761,7 @@ section {
 
             .hero-slider-mob--prev {
                 left: 15%;
-                background: url('/icons/left-arrow.svg') no-repeat;
+                background: url('icons/left-arrow.svg') no-repeat;
                 background-position: center;
                 width: 45px;
                 height: 70px;
@@ -922,7 +922,7 @@ section {
                         opacity: 0;
                         width: 20px;
                         height: 20px;
-                        background: url('/icons/link-icon.svg');
+                        background: url('icons/link-icon.svg');
                         transition: all .5s ease;
                     }
 
@@ -1148,7 +1148,7 @@ section {
                         width: 26px;
                         height: 26px;
                         position: absolute;
-                        background: url('/icons/check.svg') no-repeat;
+                        background: url('icons/check.svg') no-repeat;
                         left: -34px;
                         top: -2px;
                     }
@@ -1164,14 +1164,14 @@ section {
                     left: 0px;
                     width: 35px;
                     height: 56px;
-                    background: url('/icons/left-arrow.svg') no-repeat;
+                    background: url('icons/left-arrow.svg') no-repeat;
                 }
 
                 .threads-slider .threads-slider--next {
                     right: 0px;
                     width: 35px;
                     height: 56px;
-                    background: url('/icons/right-arrow.svg') no-repeat;
+                    background: url('icons/right-arrow.svg') no-repeat;
                 }
 
                 @media(max-width: 992px) {
@@ -1494,7 +1494,7 @@ section {
                     bottom: 4px;
                     width: 8px;
                     height: 45px;
-                    background: url('/icons/arrow.svg') no-repeat;
+                    background: url('icons/arrow.svg') no-repeat;
                 }
             @media(max-width: 992px) {
                 .footer__up::after {
