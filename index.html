@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/splide.min.css">
+    <link rel="stylesheet" href="/css/aos.css">
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/css/scrollbar.min.css">
+    <link rel="stylesheet" href="/fonts/font.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Silhouette Pro</title>
+</head>
+<body>
+    <div class="wrapper"></div>
+    <header class="header container">
+        <nav class="header__nav">
+            <ul class="header__nav-list header__nav-list--left">
+                <li data-aos="fade-right" data-aos-once="true" class="header__nav-item"><a href="#about">О бренде</a></li>
+                <li data-aos="fade-right" data-aos-delay="300" data-aos-once="true" class="header__nav-item"><a href="#threads">Нити Silhouette PRO</a></li>
+            </ul>
+        </nav>
+        <img src="/images/logo.svg" alt="Silhouette Pro" class="header__logo">
+        <nav class="header__nav">
+            <ul class="header__nav-list header__nav-list--right">
+                <li data-aos="fade-left" data-aos-delay="600" data-aos-once="true" class="header__nav-item"><a href="#reviews">Отзывы</a></li>
+                <li data-aos="fade-left" data-aos-delay="300" data-aos-once="true" class="header__nav-item"><a href="#order">Сделать заказ</a></li>
+                <li data-aos="fade-left" data-aos-once="true" class="header__nav-item"><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+        <button class="menu">
+            <!-- this.setAttribute('aria-expanded', this.classList.contains('opened'))" -->
+            <svg width="50" height="50" viewBox="0 0 100 100">
+              <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+              <path class="line line2" d="M 20,50 H 80" />
+              <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+            </svg>
+        </button>
+        <nav class="header__nav-mobile">    
+            <ul class="header__nav-list header__nav-mob-list">
+                <li class="header__nav-item"><a class="header__nav-mobile-link" href="#about">О бренде</a></li>
+                <li class="header__nav-item"><a class="header__nav-mobile-link" href="#threads">Нити Silhouette PRO</a></li>
+                <li class="header__nav-item"><a class="header__nav-mobile-link" href="#reviews">Отзывы</a></li>
+                <li class="header__nav-item"><a class="header__nav-mobile-link" href="#order">Сделать заказ</a></li>
+                <li class="header__nav-item"><a class="header__nav-mobile-link" href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="hero">
+            <h1 data-aos="fade-down" data-aos-delay="300" data-aos-once="true"><b>Silhouette Pro</b><br>Мезолифтинг и Anti-age эффект</h1>
+            <!-- При добавлении 4 слайда и т.д., нужно будет дублировать их, по аналогии с 3 слайдами, чтобы не было багов при бесконечной прокрутки слайдера -->
+            <div class="swiper hero__slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="hero__slider-wrapper">
+                            <img src="/images/hero-slider/hero-slide-1-crop.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero__slider-wrapper">
+                            <img src="/images/hero-slider/hero-slide-2-crop.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero__slider-wrapper">
+                            <img src="/images/hero-slider/hero-slide-3.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero__slider-wrapper">
+                            <img src="/images/hero-slider/hero-slide-1-crop.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero__slider-wrapper">
+                            <img src="/images/hero-slider/hero-slide-2-crop.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero__slider-wrapper">
+                            <img src="/images/hero-slider/hero-slide-3.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="swiper hero__text-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p>Мгновенный видимый эффект <br> сразу после процедуры</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>Иглы со специальным <br> силиконовым покрытием</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>Минимальное повреждение <br> кожи и тканей</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>Мгновенный видимый эффект <br> сразу после процедуры</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>Иглы со специальным <br> силиконовым покрытием</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>Минимальное повреждение <br> кожи и тканей</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="splide hero__slider-mob container">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="hero__slider-mob-wrapper">
+                            <img src="/images/hero-slider/hero-slide-1-crop.webp" alt="">
+                        </div>
+                        <p>Минимальное повреждение <br> кожи и тканей</p>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="hero__slider-mob-wrapper">
+                            <img src="/images/hero-slider/hero-slide-2-crop.webp" alt="">
+                        </div>
+                        <p>Мгновенный видимый эффект <br> сразу после процедуры</p>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="hero__slider-mob-wrapper">
+                            <img src="/images/hero-slider/hero-slide-3-crop.webp" alt="">
+                        </div>
+                        <p>Иглы со специальным <br> силиконовым покрытием</p>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <section id="about" class="about container">
+            <h2 data-aos="fade-down" data-aos-once="true">БРЕНД <b>SILHOUETTE PRO</b></h2>
+
+            <div class="about__text-block" data-aos="fade-right" data-aos-delay="200" data-aos-once="true">
+                <p>Нити SILHOUETTE PRO изготовлены из высококачественного металла, имеют алмазную заточку и обработаны специальным стерильным составом для лучшего скольжения в тканях. Поэтому нити в работе легкие, удобные, не требуют длительной реабилитации.</p>
+                <p>Нити PDO (полидиоксанон) состоят из рассасывающегося полимерного шовного материала, который является гибким и прочным, что делает его идеальным для минимально инвазивного омоложения и лифтинга кожи.</p>
+                <p>Нити PDO провоцируют процесс самовосстановления, вводя шовную нить в кожу. Через 8 месяцев она полностью рассасывается, но коллагеновая капсула остается.</p>
+            </div>
+
+            <ul class="about__advantages-list">
+                <li class="about__advantages-item" data-aos="fade-right" data-aos-once="true">Все модели произведены <br> и запатентованы в Южной Корее</li>
+                <li class="about__advantages-item" data-aos="fade-right" data-aos-delay="300" data-aos-once="true">Имеются сертификаты <br> CE & KFDA</li>
+                <li class="about__advantages-item" data-aos="fade-right" data-aos-delay="500" data-aos-once="true">Самый широкий ассортимент <br> и параметр игл</li>
+            </ul>
+
+            <div class="about__partnership-block">
+
+                <div class="about__partnership-text-block">
+                    <p>Компания Aesthetikus является официальным <br> дистрибьютором нитей SILHOUETTE PRO в России.</p>
+                    <a href="#">Перейти на сайт компании <span class="link-icon"></span> </a>
+                </div>
+                
+                <div class="about__partnership-logo">
+                    <img src="/images/esthetikus-logo.svg" alt="esthetikus">
+                </div>
+            </div>
+        </section>
+
+        <section class="feature content">
+            <div class="feature-text" data-aos="zoom-in" data-aos-once="true" data-aos-offset="300">
+                С помощью мезонитей <b>SILHOUETTE PRO</b><br>
+                можно восстановить плотность и упругость кожи,<br>
+                вернуть четкость контурам лица, добиться<br>
+                истинного лифтинга тканей.
+            </div>
+        </section>
+
+        <section id="threads" class="threads container">
+            <h2 data-aos="fade-down" data-aos-once="true">НИТИ <b>SILHOUETTE PRO</b></h2>
+            <div class="threads__subtitle" data-aos="fade-down" data-aos-delay="300" data-aos-once="true">
+                <b>12 видов, 77 моделей</b> для различных процедур!
+            </div>
+            <div class="splide threads-slider">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <span class="threads-slider__title">Моно / скрю: базовая модель для производства коллагена и эластина</span>
+                            <span class="threads-slider__subtitle">Мягкий лифтинг и ревитализация кожи </span>
+                            <div class="threads-slider__images">
+                                <figure>
+                                    <img src="/images/threads/mono.png" alt="Моно" class="threads-slider__img"></img>
+                                    <figcaption>Моно</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="/images/threads/scru.png" alt="Скрю" class="threads-slider__img"></img>
+                                    <figcaption>Скрю</figcaption>
+                                </figure>
+                            </div>
+                            <ul class="threads-slider__advantages-list">
+                                <li class="threads-slider__advantages-item">Данная модель служит для укрепления кожи, сокращения кожного лоскута, а также растягивания складок и натяжения тканей.</li>
+                                <li class="threads-slider__advantages-item">Процедуры возможно проводить даже на тонких участках кожи.</li>
+                                <li class="threads-slider__advantages-item">Практически безболезненно и без раздражений.</li>
+                                <li class="threads-slider__advantages-item">Доступны к заказу атравматичные канюли специально для кожи вокруг глаз.</li>
+                            </ul>
+                        </li>
+                        <li class="splide__slide">
+                            <span class="threads-slider__title">Моно / скрю: базовая модель для производства коллагена и эластина</span>
+                            <span class="threads-slider__subtitle">Мягкий лифтинг и ревитализация кожи </span>
+                            <div class="threads-slider__images">
+                                <figure>
+                                    <img src="/images/threads/mono.png" alt="Моно" class="threads-slider__img"></img>
+                                    <figcaption>Моно</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="/images/threads/scru.png" alt="Скрю" class="threads-slider__img"></img>
+                                    <figcaption>Скрю</figcaption>
+                                </figure>
+                            </div>
+                            <ul class="threads-slider__advantages-list">
+                                <li class="threads-slider__advantages-item">Данная модель служит для укрепления кожи, сокращения кожного лоскута, а также растягивания складок и натяжения тканей.</li>
+                                <li class="threads-slider__advantages-item">Процедуры возможно проводить даже на тонких участках кожи.</li>
+                                <li class="threads-slider__advantages-item">Практически безболезненно и без раздражений.</li>
+                                <li class="threads-slider__advantages-item">Доступны к заказу атравматичные канюли специально для кожи вокруг глаз.</li>
+                            </ul>
+                        </li>
+                        <li class="splide__slide">
+                            <span class="threads-slider__title">Моно / скрю: базовая модель для производства коллагена и эластина</span>
+                            <span class="threads-slider__subtitle">Мягкий лифтинг и ревитализация кожи </span>
+                            <div class="threads-slider__images">
+                                <figure>
+                                    <img src="/images/threads/mono.png" alt="Моно" class="threads-slider__img"></img>
+                                    <figcaption>Моно</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="/images/threads/scru.png" alt="Скрю" class="threads-slider__img"></img>
+                                    <figcaption>Скрю</figcaption>
+                                </figure>
+                            </div>
+                            <ul class="threads-slider__advantages-list">
+                                <li class="threads-slider__advantages-item">Данная модель служит для укрепления кожи, сокращения кожного лоскута, а также растягивания складок и натяжения тканей.</li>
+                                <li class="threads-slider__advantages-item">Процедуры возможно проводить даже на тонких участках кожи.</li>
+                                <li class="threads-slider__advantages-item">Практически безболезненно и без раздражений.</li>
+                                <li class="threads-slider__advantages-item">Доступны к заказу атравматичные канюли специально для кожи вокруг глаз.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="threads__btn">
+                <a href="#order" class="btn">
+                    Заказать
+                </a>
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <h2 class="h2--black-style" data-aos="fade-down" data-aos-once="true">ОТЗЫВЫ НА НИТИ <b>SILHOUETTE PRO</b></h2>
+            <div class="splide reviews__slider">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="reviews__title">
+                            <div class="reviews__text-block">
+                                <span class="reviews__name">Савельева Анна Сергеевна</span>
+                                <span class="reviews__profession">Врач-косметолог</span>
+                            </div>
+                            <!-- Чтобы поставить меньше звездочек на отзыв, нужно поставить атрибут checked с конца -->
+                            <div class="full-stars" disabled>
+                                <div class="rating-group">
+  
+                                    <label for="fst-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-1" value="1" type="radio" disabled />
+  
+                                    <label for="fst-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-2" value="2" type="radio" disabled />
+   
+                                    <label for="fst-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-3" value="3" type="radio" disabled />
+      
+                                    <label for="fst-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-4" value="4" type="radio" disabled/>
+   
+                                    <label for="fst-5">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-5" value="5" type="radio" disabled checked/>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Из нитей этой компании чаще всего использую в работе гладкие мезонити без насечек при грамотной работе можно достичь очень хороших результатов, которые невозможно добиться другими нехирургическими методами</p>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="reviews__title">
+                            <div class="reviews__text-block">
+                                <span class="reviews__name">Антонов Алексей Петрович</span>
+                                <span class="reviews__profession">Врач-косметолог</span>
+                            </div>
+                            <div class="full-stars" disabled>
+                                <div class="rating-group">
+  
+                                    <label for="fst-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-1" value="1" type="radio" disabled />
+  
+                                    <label for="fst-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-2" value="2" type="radio" disabled />
+   
+                                    <label for="fst-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-3" value="3" type="radio" disabled />
+      
+                                    <label for="fst-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-4" value="4" type="radio" disabled/>
+   
+                                    <label for="fst-5">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-5" value="5" type="radio" disabled checked/>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Работаю нитями только из рассасывающих материалов, так как считаю их менее агрессивными и более безопасными, в Silhouette Pro очень нравится широкая линейка под любой запрос и качество отличное</p>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="reviews__title">
+                            <div class="reviews__text-block">
+                                <span class="reviews__name">Мазунина Елена Алексеевна</span>
+                                <span class="reviews__profession">Врач-косметолог</span>
+                            </div>
+                            <div class="full-stars" disabled>
+                                <div class="rating-group">
+  
+                                    <label for="fst-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-1" value="1" type="radio" disabled />
+  
+                                    <label for="fst-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-2" value="2" type="radio" disabled />
+   
+                                    <label for="fst-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-3" value="3" type="radio" disabled />
+      
+                                    <label for="fst-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-4" value="4" type="radio" disabled/>
+   
+                                    <label for="fst-5">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-5" value="5" type="radio" disabled checked/>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Очень часто использую в работе эти мезонити, так как считаю, что регулярная постановка рассасывающихся нитей, является наиболее рациональным подходом к сохранению молодости тканей без рисков осложнений</p>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="reviews__title">
+                            <div class="reviews__text-block">
+                                <span class="reviews__name">Кузьмина Екатерина Андреевна</span>
+                                <span class="reviews__profession">Врач-косметолог</span>
+                            </div>
+                            <div class="full-stars" disabled>
+                                <div class="rating-group">
+  
+                                    <label for="fst-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-1" value="1" type="radio" disabled />
+  
+                                    <label for="fst-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-2" value="2" type="radio" disabled />
+   
+                                    <label for="fst-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-3" value="3" type="radio" disabled />
+      
+                                    <label for="fst-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-4" value="4" type="radio" disabled />
+   
+                                    <label for="fst-5">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-5" value="5" type="radio" disabled checked/>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Из нитей этой компании чаще всего использую в работе гладкие мезонити без насечек при грамотной работе можно достичь очень хороших результатов, которые невозможно добиться другими нехирургическими методами</p>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="reviews__title">
+                            <div class="reviews__text-block">
+                                <span class="reviews__name">Савельева Анна Сергеевна</span>
+                                <span class="reviews__profession">Врач-косметолог</span>
+                            </div>
+                            <div class="full-stars" disabled>
+                                <div class="rating-group">
+                                    <label for="fst-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-1" value="1" type="radio" disabled />
+  
+                                    <label for="fst-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-2" value="2" type="radio" disabled />
+   
+                                    <label for="fst-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-3" value="3" type="radio" disabled />
+      
+                                    <label for="fst-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-4" value="4" type="radio" disabled />
+   
+                                    <label for="fst-5">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .288l2.833 8.718h9.167l-7.417 5.389 2.833 8.718-7.416-5.388-7.417 5.388 2.833-8.718-7.416-5.389h9.167z"/></svg>
+                                    </label>
+                                    <input name="fst" id="fst-5" value="5" type="radio" disabled checked/>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Из нитей этой компании чаще всего использую в работе гладкие мезонити без насечек при грамотной работе можно достичь очень хороших результатов, которые невозможно добиться другими нехирургическими методами</p>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="order" class="order container">
+            <h2 data-aos="fade-down" data-aos-once="true" class="h2--black-style">ЧТОБЫ СДЕЛАТЬ ЗАКАЗ ЗАПОЛНИТЕ ФОРМУ</h2>
+            <p data-aos="fade-down" data-aos-delay="300" data-aos-once="true">менеджер свяжется с вами в ближайшее время</p>
+            <form action="post" class="order__form">
+                <input data-aos="fade-right" data-aos-once="true" type="text" name="name" placeholder="ФИО" >
+                <input data-aos="fade-left" data-aos-delay="300" data-aos-once="true" type="email" name="email" placeholder="E-mail">
+                <input data-aos="fade-right" data-aos-delay="600" data-aos-once="true" type="tel" name="tel" placeholder="Номер телефона">
+                <button data-aos="fade-top" data-aos-delay="900" data-aos-once="true" class="btn" type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+        <div class="footer__wrapper container">
+            <div class="footer__logo">
+                <img src="/images/footer-logo.svg" alt="Silhouette Pro">
+            </div>
+            <div class="footer__address">
+                <span>Адрес: г. Москва, Волоколамское ш., 1с1</span>
+                <span>Телефон: +7 925 755 22 01</span>
+            </div>
+            <div class="footer__links">
+                <a href="personal-data.html">Политика в отношении обработки персональных данных</a>
+                <a href="terms-of-use.html">Пользовательское соглашение</a>
+            </div>
+            <div class="footer__right-block">
+                <a class="footer__up" href="#">Главная</a>
+                <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                        <a class="footer__social-link--vk" href="https://vk.com/">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.0336 0.526367C13.5753 0.526367 14.117 0.526367 14.6587 0.526367C15.0383 0.575981 15.4188 0.618168 15.7969 0.676694C19.2343 1.20997 22.0741 2.82376 24.2483 5.54005C26.7775 8.69989 27.7029 12.3214 27.0287 16.3182C26.4713 19.623 24.89 22.3862 22.2694 24.4531C18.2266 27.6414 13.7023 28.3972 8.91309 26.5131C4.31741 24.705 1.58527 21.2139 0.611344 16.3514C0.511939 15.8553 0.46845 15.3482 0.398926 14.8461C0.398926 14.2846 0.398926 13.7231 0.398926 13.1613C0.466675 12.6681 0.520519 12.1726 0.604243 11.6821C1.53498 6.22425 5.79753 1.8395 11.1979 0.791965C11.8041 0.674318 12.4215 0.613414 13.0336 0.526367ZM15.2874 11.9301C15.2871 11.9301 15.2865 11.9301 15.2862 11.9301C15.2862 11.4391 15.3049 10.9471 15.2809 10.4575C15.2575 9.97678 15.0271 9.71534 14.5475 9.69306C13.6505 9.65147 12.7505 9.6378 11.8529 9.66276C11.6059 9.66959 11.3352 9.81487 11.1272 9.96787C10.8766 10.1521 10.9358 10.3303 11.2313 10.4168C11.6804 10.5481 11.8991 10.7807 11.9233 11.229C11.9565 11.8416 11.9787 12.4566 11.965 13.0695C11.9579 13.3894 11.8816 13.7118 11.8044 14.0252C11.739 14.2899 11.5432 14.3571 11.3251 14.1963C11.1657 14.0787 11.0169 13.9352 10.8953 13.7786C10.161 12.8327 9.57342 11.8003 9.14119 10.6821C8.96783 10.2335 8.6563 10.0193 8.18058 10.0193C7.42942 10.0193 6.67827 10.0065 5.92682 10.0074C5.49636 10.008 5.3156 10.2682 5.48867 10.6631C6.4478 12.8502 7.51581 14.9786 9.04031 16.8348C10.4772 18.5847 12.3218 19.4245 14.5978 19.2308C15.0457 19.1928 15.2321 18.9997 15.2901 18.5573C15.3256 18.2885 15.372 18.0202 15.4309 17.7555C15.4907 17.4872 15.4978 17.1604 15.8223 17.0656C16.1622 16.9667 16.374 17.2302 16.58 17.4385C16.9924 17.8553 17.3876 18.289 17.7938 18.7121C18.0823 19.0125 18.4373 19.2326 18.8461 19.2481C19.7615 19.2828 20.6798 19.2938 21.5946 19.2582C22.1218 19.2377 22.3451 18.7614 22.1144 18.2795C22.0729 18.1931 22.0185 18.1129 21.9667 18.0318C21.4126 17.1675 20.6603 16.481 19.9434 15.7632C19.3538 15.1726 19.3408 14.9943 19.8316 14.3075C19.857 14.2718 19.8828 14.2365 19.9085 14.2011C20.3993 13.5297 20.9109 12.8719 21.3736 12.1815C21.6632 11.7489 21.9173 11.2825 22.117 10.8021C22.3262 10.2991 22.1685 10.06 21.623 10.0436C20.6458 10.0142 19.6671 10.0332 18.689 10.0356C18.4234 10.0362 18.2476 10.1779 18.1471 10.4191C18.1 10.5323 18.0548 10.6461 18.0086 10.7596C17.5406 11.9126 16.9394 12.9851 16.0957 13.9073C15.9536 14.0624 15.8294 14.3054 15.569 14.2174C15.3105 14.1298 15.2998 13.8583 15.2924 13.639C15.2747 13.0692 15.2874 12.4994 15.2874 11.9301Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="footer__social-link footer__social-link--instagram" href="https://www.instagram.com/">
+                            <svg width="28" height="28" viewBox="0 -2 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="footer__social-link--whatsapp" href="#">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.00292969 14.671C0.00292969 14.196 0.00292969 13.7214 0.00292969 13.2463C0.0184577 13.1705 0.0421029 13.0953 0.0477495 13.0191C0.199854 10.9249 0.798037 8.96448 1.88959 7.17381C4.0314 3.65918 7.12925 1.50007 11.1838 0.740608C11.691 0.645675 12.2073 0.599091 12.7194 0.530273C13.247 0.530273 13.7746 0.530273 14.3022 0.530273C14.7542 0.586739 15.2088 0.627324 15.6577 0.702494C18.4594 1.17081 20.9058 2.3707 22.9231 4.37241C25.9835 7.4092 27.3313 11.1074 26.9427 15.3959C26.6851 18.2418 25.5918 20.7753 23.6783 22.903C20.4636 26.4777 16.4366 27.9811 11.6606 27.4083C9.73303 27.1771 7.95118 26.4981 6.31473 25.4507C6.15098 25.3459 6.01123 25.3293 5.82666 25.3893C4.27456 25.8936 2.71928 26.3887 1.16471 26.8856C1.08672 26.9107 1.0059 26.9273 0.903204 26.9541C0.937789 26.8465 0.961435 26.772 0.986138 26.6975C1.48021 25.2252 1.9697 23.7518 2.47295 22.2826C2.55094 22.0546 2.54 21.8852 2.39672 21.6806C1.2727 20.0738 0.547118 18.2976 0.214676 16.3661C0.118684 15.8049 0.0721001 15.2361 0.00292969 14.671ZM17.8771 21.6491C18.3183 21.5641 18.7026 21.5369 19.0534 21.4145C20.9566 20.7506 21.5996 19.8355 21.6501 18.06C21.6579 17.7894 21.5506 17.6111 21.3081 17.4954C20.302 17.0158 19.3022 16.5235 18.2918 16.0527C17.7755 15.812 17.4716 15.9098 17.13 16.3678C16.8675 16.72 16.6116 17.0772 16.3409 17.423C15.928 17.9503 15.6383 18.0198 15.0143 17.765C12.7539 16.8425 11.0878 15.2495 9.83925 13.1835C9.67727 12.9157 9.68997 12.6665 9.89078 12.4315C10.1018 12.1841 10.3093 11.9321 10.5391 11.7027C11.0413 11.2016 11.2357 10.6595 10.8232 10.0098C10.8186 10.0024 10.8175 9.99322 10.814 9.9851C10.4127 9.04036 10.0189 8.09209 9.60245 7.15405C9.53787 7.009 9.38753 6.83502 9.24671 6.80185C8.52748 6.6328 7.8019 6.62221 7.18289 7.09617C6.61506 7.53096 6.21698 8.11361 5.96606 8.78591C5.47128 10.1121 5.62832 11.4045 6.17533 12.6792C6.57765 13.6165 7.1649 14.4378 7.76555 15.2498C8.77946 16.6202 9.93736 17.8522 11.2851 18.9035C12.7352 20.0346 14.389 20.7468 16.1341 21.2634C16.7196 21.4367 17.3284 21.5302 17.8771 21.6491Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+<script src="/js/aos.js"></script>
+<script src="/js/splide.min.js"></script>
+<script src="/js/swiper-bundle.min.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
