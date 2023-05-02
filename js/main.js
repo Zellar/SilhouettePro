@@ -82,7 +82,6 @@ document.addEventListener( 'DOMContentLoaded', function() {
         width: '1440px',
         updateOnMove: true,
         fixedWidth: '750px',
-        fixedHeight: '385px',
         drag: false,
         autoplay: false,
         breakpoints: {
