@@ -79,12 +79,15 @@ document.addEventListener( 'DOMContentLoaded', function() {
         perMove: 1,
         focus: 'center',
         arrows: false,
-        width: '1440px',
+        width: '2100px',
         updateOnMove: true,
         fixedWidth: '750px',
         drag: false,
         autoplay: false,
         breakpoints: {
+            1440: {
+              width: '1440px',
+            },
             1240: {
                 width: '1024px',
                 fixedWidth: '460px',
