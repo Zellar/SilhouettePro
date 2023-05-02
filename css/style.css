@@ -1261,7 +1261,6 @@ section {
             @media(max-width: 767px) {
                 .reviews__wrapper {
                     padding: 15px;
-                    max-height: 385px;
                     height: 100%;
                     max-width: 380px;
                     margin: 0 auto;
