@@ -100,8 +100,8 @@ document.addEventListener( 'DOMContentLoaded', function() {
               gap: '10px',
             },
             424: {
-              width: '280px',
-              fixedWidth: '280px',
+              width: '320px',
+              fixedWidth: '320px',
               perPage: 1,
               type: 'slide',
               gap: '10px',

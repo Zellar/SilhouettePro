@@ -290,9 +290,9 @@ section {
 
     @media(max-width: 434px) {
         .container {
-            max-width: 280px;
-            padding-left: 10px;
-            padding-right: 10px
+            max-width: 100%;
+            padding-left: 20px;
+            padding-right: 20px
         }
     }
 
@@ -728,7 +728,7 @@ section {
                     height: 45px;
                     border-radius: 50%;
                     background-size: 50%;
-                    right: 0;
+                    right: 25px;
                 }
             }
                 .hero-slider-mob--next  svg{
@@ -753,7 +753,7 @@ section {
                     height: 45px;
                     border-radius: 50%;
                     background-size: 50%;
-                    left: -25px;
+                    left: -10px;
                 }
             }
                 .hero-slider-mob--prev svg {
@@ -1247,7 +1247,7 @@ section {
     }
     @media(max-width: 424px) {
         .reviews {
-            max-width: 280px;
+            max-width: 320px;
             margin: auto;
         }
     }
